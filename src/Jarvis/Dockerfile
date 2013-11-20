@@ -18,7 +18,7 @@ RUN apt-get install -y git
 
 RUN apt-get install -y libexpat-dev libicu-dev
 
-ADD src/Jarvis /Jarvis
+ADD . /Jarvis
 
 WORKDIR /Jarvis
 
