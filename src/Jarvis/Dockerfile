@@ -22,6 +22,6 @@ RUN npm install && npm install node-stringprep
 
 ADD start_hubot.sh /Jarvis/
 
-RUN chmod +x /Jarvis/bin/hubot
+RUN chmod +x /Jarvis/bin/hubot && chmod +x /Jarvis/start_hubot.sh
 
-CMD ["bin/hubot", "--adapter", "xmpp", "--name", "jarvis"]
+CMD ["start_hubot.sh"]
