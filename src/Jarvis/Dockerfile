@@ -24,4 +24,4 @@ ADD start_hubot.sh /Jarvis/
 
 RUN chmod +x /Jarvis/bin/hubot && chmod +x /Jarvis/start_hubot.sh
 
-CMD ["start_hubot.sh"]
+CMD ["/Jarvis/start_hubot.sh"]
